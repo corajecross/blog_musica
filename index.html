@@ -10,15 +10,15 @@
 
 	<body class="musicBody">
 		<!-- Contenedor de la pagina -->
-		<div class="container">
+		<div class="container-fluid">
 			<!-- Fila que contiene el encabezado de la pagina donde se ubican el logo y las redes sociales -->
 			<div class="row encabezado">
 				<!-- Columna contenedora del logo -->
-				<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
 					<img src="img/logo.png" class="logo float-left">
 				</div>
 				<!-- Columna contenedora de las redes sociales -->
-				<div class="col-lg-4 col-md-4 col-sm-4 offset-lg-4 offset-md-4 align-self-end">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12 offset-lg-4 offset-md-4 align-self-end">
 					<a href="#"><img src="img/facebook.png" class="logoRedes float-right"></a>
 					<a href="#"><img src="img/instagram.png" class="logoRedes float-right"></a>
 					<a href="#"><img src="img/YouTube.png" class="logoRedes float-right"></a>
@@ -42,7 +42,9 @@
 						<!-- Articulo 1 -->
 						<div class="row">
 							<div class="col-sm-6">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eos, optio laborum, sequi voluptatem ab vel quibusdam deleniti molestias quas, facilis quidem rem ducimus. Rerum placeat praesentium vel omnis est!</p>
+								<h2>Bob Marley</h2>
+								<p class="text-justify">Robert Nesta Marley, más conocido como Bob Marley (Nine Mile, Saint Ann, Jamaica, 6 de febrero de 1945-Miami, Florida, Estados Unidos, 11 de mayo de 1981), fue un músico, guitarrista y compositor jamaicano. Durante su carrera musical fue el líder, compositor y guitarrista de las bandas de The Wailers (1964-1974) y Bob Marley & The Wailers (1974-1982). Marley sigue siendo el más conocido y respetado intérprete de la música reggae y es acreditado por ayudar a difundir tanto la música de Jamaica como el movimiento rastafari (del que era un miembro comprometido) a una audiencia mundial.</p>
+								<p class="text-justify">Entre sus mayores éxitos se encuentran los sencillos «I Shot the Sheriff», «No Woman, No Cry», «Jamming», «Redemption Song» y, junto a The Wailers, «Three Little Birds», así como el lanzamiento póstumo «Buffalo Soldier». El álbum recopilatorio Legend, lanzado por Island Records en 1984, tres años después de su muerte, es el álbum de reggae más vendido de la historia con 15 discos de platino en los Estados Unidos y más de 28 millones de copias en todo el mundo.</p>
 							</div>
 							<div class="col-sm-6">
 								<img src="img/bobrisa.jpg" class="img-thumbnail imgArticulo float-right">
@@ -59,7 +61,9 @@
 								<img src="img/images (24).jpg" class="img-thumbnail imgArticulo float-left">
 							</div>
 							<div class="col-sm-6">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eos, optio laborum, sequi voluptatem ab vel quibusdam deleniti molestias quas, facilis quidem rem ducimus. Rerum placeat praesentium vel omnis est!</p>
+								<h2>Reggae</h2>
+								<p class="text-justify">El reggae es un género musical que se desarrolló por primera vez en Jamaica hacia mediados de los años 1970. Aunque en ocasiones el término se utiliza de modo amplio para referirse a diferentes estilos de música jamaiquina, por reggae se entiende en sentido estricto un género musical específico que se originó como desarrollo de otros anteriores como el ska y el rocksteady.</p>
+								<p class="text-justify">El reggae se caracteriza rítmicamente por un tipo de acentuación del off-beat, conocida como skank. Normalmente, el tiempo del reggae es más lento que el del ska y el rocksteady. El reggae suele acentuar el segundo y cuarto pulso de cada compás, y utiliza la guitarra para poner o bien énfasis en el tercer pulso o para mantener el acorde desde el segundo hasta el cuarto. Es generalmente este "tercer beat", tanto por la velocidad como por la utilización de complejas líneas de bajo, lo que diferencia al reggae del rocksteady.</p>
 							</div>
 						</div>
 						<div class="row">
@@ -69,11 +73,18 @@
 						</div>
 					</div>
 					<!-- Columna de busqueda -->
-					<div class="col-sm-4">
+					<div class="col-sm-4 columnaBusqueda">
 						<div class="row">
 							<div class="form-group col-sm-12">
 								<textarea class="form-control" placeholder="Buscar"  rows="2"></textarea>
 							</div>
+						</div>
+						<div class="row justify-content-center">
+							<ul class="list-group list-unstyled">
+								<li class="list-group-item list-group-item-dark">Artistas Destacados</li>
+								<li class="list-group-item list-group-item-dark">Canciones</li>
+								<li class="list-group-item list-group-item-dark">Proximos Conciertos</li>
+							</ul>
 						</div>
 					</div>
 				</div>
