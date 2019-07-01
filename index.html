@@ -15,31 +15,68 @@
 			<div class="row encabezado">
 				<!-- Columna contenedora del logo -->
 				<div class="col-lg-4 col-md-4 col-sm-4">
-					<img src="img/logo.png" class="logo">
+					<img src="img/logo.png" class="logo float-left">
 				</div>
 				<!-- Columna contenedora de las redes sociales -->
-				<div class="col-lg-4 col-md-4 col-sm-4 col-md-offset-4">
-					<a href="#"><img src="img/facebook.png" class="logoRedes"></a>
-					<a href="#"><img src="img/instagram.png" class="logoRedes"></a>
-					<a href="#"><img src="img/YouTube.png" class="logoRedes"></a>
+				<div class="col-lg-4 col-md-4 col-sm-4 offset-lg-4 offset-md-4 align-self-end">
+					<a href="#"><img src="img/facebook.png" class="logoRedes float-right"></a>
+					<a href="#"><img src="img/instagram.png" class="logoRedes float-right"></a>
+					<a href="#"><img src="img/YouTube.png" class="logoRedes float-right"></a>
 				</div>
 			</div>
 			<!-- Barra de navegación -->
-			<div class="row">
-				<nav class="navbar navbar-inverse nav-justified">
-					<ul class="navbar-nav">
-						<li class="nav-tabs-justified active"><a href="#">Inicio</a></li>
-						<li class=""><a href="#">Artistas</a></li>
-						<li class=""><a href="#">Grupos</a></li>
-						<li class=""><a href="#">Top 10</a></li>
-						<li class=""><a href="#">Letras</a></li>
-						<li class=""><a href="#">Acordes</a></li>
-					</ul>
-				</nav>
-			</div>
+			<nav class="navbar navbar-light">
+				<a class="btn" href="#">Inicio</a>
+				<a class="btn" href="#">Artistas</a>
+				<a class="btn" href="#">Grupos</a>
+				<a class="btn" href="#">Top 10</a>
+				<a class="btn" href="#">Letras</a>
+				<a class="btn" href="#">Acordes</a>
+			</nav>
 			<!-- Contenido de la pagina -->
 			<div class="row">
-				
+				<!-- Contenedor de contenido -->
+				<div class="row jumbotron">
+					<!-- Columna de ariculos -->
+					<div class="col-sm-8">
+						<!-- Articulo 1 -->
+						<div class="row">
+							<div class="col-sm-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eos, optio laborum, sequi voluptatem ab vel quibusdam deleniti molestias quas, facilis quidem rem ducimus. Rerum placeat praesentium vel omnis est!</p>
+							</div>
+							<div class="col-sm-6">
+								<img src="img/bobrisa.jpg" class="img-thumbnail imgArticulo float-right">
+							</div>
+						</div>
+						<div class="row">
+								<div class="form-group">
+									<textarea class="form-control" placeholder="Escribe tu comentario" rows="2"></textarea>
+								</div>
+							</div>
+						<!-- Articulo 2 -->
+						<div class="row">
+							<div class="col-sm-6">
+								<img src="img/images (24).jpg" class="img-thumbnail imgArticulo float-left">
+							</div>
+							<div class="col-sm-6">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eos, optio laborum, sequi voluptatem ab vel quibusdam deleniti molestias quas, facilis quidem rem ducimus. Rerum placeat praesentium vel omnis est!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group">
+								<textarea class="form-control" placeholder="Escribe tu comentario" rows="2"></textarea>
+							</div>
+						</div>
+					</div>
+					<!-- Columna de busqueda -->
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="form-group col-sm-12">
+								<textarea class="form-control" placeholder="Buscar"  rows="2"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
